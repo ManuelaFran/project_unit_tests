@@ -16,7 +16,6 @@
       #VQV!'
 */
 
-//const vqv = () => {};
 function vqv(nome, idade) {
   if (nome === undefined || idade === undefined) {
     return undefined;
