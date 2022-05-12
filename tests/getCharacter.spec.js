@@ -47,11 +47,11 @@ describe('9 - Implemente os casos de teste da função `getCharacter`', () => {
     // Teste se a função, quando não recebe nenhum parâmetro, retorna undefined.
     expect(getCharacter()).toBe(undefined);
     // Teste se a função retorna o objeto correto para o parâmetro 'Arya',
-    expect(getCharacter('Arya')).toBe(characters.arya);
+    expect(getCharacter('arya')).toBe(characters.arya);
     // Teste se a função retorna o objeto correto para o parâmetro 'Brienne',
-    expect(getCharacter('Brienne')).toBe(characters.brienne);
+    expect(getCharacter('brienne')).toBe(characters.brienne);
     // Teste se a função retorna o objeto correto para o parâmetro 'Melissandre',
-    expect(getCharacter('Melissandre')).toBe(characters.melissandre);
+    expect(getCharacter('melissandre')).toBe(characters.melissandre);
     // Teste se o parâmetro não é Case Sensitive, ou seja, independente de conter letras maiúsculas ou minúsculas retorna o mesmo objeto relativo a ele.
     if(getCharacter('ARYA') || getCharacter('ArYa')){
       expect(getCharacter('arya')).toBe(characters.arya);
