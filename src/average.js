@@ -22,7 +22,6 @@ function average(array) {
       return undefined;
     }
   }
-  // media = Math.round(array.reduce((a, b) => (a + b) / array.length)); 
   return Math.round(soma / array.length);
 }
 
